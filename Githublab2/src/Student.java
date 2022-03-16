@@ -4,6 +4,9 @@ public class Student {
 	Student(String name){
 		this.name=name;
 	}
+	void dispaly() {
+		System.out.println("name");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
