@@ -1,11 +1,14 @@
 
 public class Student {
 	String name;
-	Student(String name){
+	int rollno;
+	Student(String name,int rollno){
 		this.name=name;
+		this.rollno=rollno;
 	}
 	void dispaly() {
 		System.out.println("name");
+		System.out.println("roll no");
 	}
 
 	public static void main(String[] args) {
